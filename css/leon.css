@@ -438,6 +438,8 @@ body{
 .contact .card {
     width: 60%;
     height: 85%;
+    color: #ebeced;
+    text-align: center;
     margin: 20PX auto;
     padding: 20px;
     background-color: #642d6ae0;
@@ -448,10 +450,7 @@ body{
     -ms-border-radius: 5%;
     -o-border-radius: 5%;
 }
-.contact .card {
-    color: #ebeced;
-    text-align: center;
-}
+
 .contact .image-person {
     width: 180px;
     height: 150px;
@@ -566,15 +565,20 @@ body{
 
  @media (max-width: 599px){
     .contact .card .name-ar{
-        font-size: 30px;
+        font-size: 20px;
     }
     .contact .card .name-en,
     .contact .card .name-en +p{
-        font-size:25px;
+        font-size: 16px;
     }
-    .contact .info .link{
+    .contact .info .link,
+    .contact .info .social{
         font-size: 14px;
         font-weight: 400;
+        margin: 5px 0 0 0;
+    }
+    .contact .card{
+        width: 80%;
     }
     
  }
