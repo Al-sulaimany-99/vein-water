@@ -573,9 +573,12 @@ body{
     }
     .contact .info .link,
     .contact .info .social{
-        font-size: 14px;
-        font-weight: 400;
+        font-size: 13px;
+        font-weight: 500;
         margin: 5px 0 0 0;
+    }
+    .contact .info .social i {
+        margin-left: 5px;
     }
     .contact .card{
         width: 80%;
