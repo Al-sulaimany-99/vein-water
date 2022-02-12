@@ -570,10 +570,11 @@ body{
     .contact .card .name-en,
     .contact .card .name-en +p{
         font-size: 16px;
+        margin: 5px 0 20px
     }
     .contact .info .link,
     .contact .info .social{
-        font-size: 13px;
+        font-size: 12px;
         font-weight: 500;
         margin: 5px 0 0 0;
     }
@@ -582,6 +583,12 @@ body{
     }
     .contact .card{
         width: 80%;
+        padding: 15px;
+    }
+    .contact .image-person {
+        width: 140px;
+        height: 130px;
+        margin: 0px auto 15px;
     }
     
  }
